@@ -1,3 +1,6 @@
+// can i make this concept into arrays and like cross match them 
+player1 = ["rock", "paper", "scissor","lizard","spock"]
+player2 = ["rock", "paper", "scissor","lizard","spock"]
 function rockPaperScissors(player1, player2) {
   if (player1 === player2) {
     return "draw";
@@ -19,7 +22,7 @@ function rockPaperScissors(player1, player2) {
   }
 }
 
-console.log(rockPaperScissors("scissors", "scissors"));
+console.log(rockPaperScissors("spock", "scissors"));
 
 // Leave this code here for the automated tests
 module.exports = {
