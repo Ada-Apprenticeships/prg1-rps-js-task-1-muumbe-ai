@@ -8,9 +8,9 @@ function rockPaperScissors(player1, player2) {
   (player1 === "paper" && player2 === "rock") ||
   (player1 === "scissors" && player2 === "paper") 
  ) {
-  return 'player1'
+  return 'player1';
  } else {
-  return 'player2'
+  return 'player2';
  }
    
 }
