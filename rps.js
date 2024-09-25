@@ -1,8 +1,8 @@
-let player1 = "rock"
-let player2 = "scissors"
+//let player1 = "rock"
+//let player2 = "scissors"
 
 function rockPaperScissors(player1, player2) {
- if (player1 == player2){
+ if (player1 === player2){
   return "draw"
  }
  else if (
@@ -11,6 +11,8 @@ function rockPaperScissors(player1, player2) {
   (player1 === "scissors" && player2 === "paper") 
  ) {
   return 'player1'
+ } else {
+  return 'player2'
  }
    
 }
