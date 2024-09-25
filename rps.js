@@ -1,7 +1,18 @@
-// can i make this concept into arrays and like cross match them 
+// can i make this concept into arrays and like cross match them i think theres a math to this
 player1 = ["rock", "paper", "scissor","lizard","spock"]
 player2 = ["rock", "paper", "scissor","lizard","spock"]
+
+// make rules a constant variable
+
 function rockPaperScissors(player1, player2) {
+// I want to define the rules:
+const rules = {
+  rock : ["scissors", "lizard"],
+  paper : ["rock", "spock"],
+  scissor : ["paper", "lizard"],
+  lizard : ["spock", "paper"],
+  spock : ["scissors", "rock"]
+};
   if (player1 === player2) {
     return "draw";
   } else if (
