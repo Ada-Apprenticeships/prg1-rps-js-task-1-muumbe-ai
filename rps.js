@@ -15,7 +15,7 @@ function rockPaperScissors(player1, player2) {
    
 }
 
-
+console.log(rockPaperScissors('scissors','scissors'))
 
 
 
